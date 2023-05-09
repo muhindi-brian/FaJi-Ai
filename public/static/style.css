@@ -1,0 +1,84 @@
+/* Body Style */
+
+body {
+    background-color: #F0E9E0;
+}
+
+
+/* Header Style */
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+}
+
+
+/* Main Menu Style */
+
+nav {
+    text-align: center;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+
+/* Footer Style */
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+
+
+/* style.css */
+
+.logo {
+    position: relative;
+    width: 250px;
+    height: 50px;
+}
+
+.logo img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+
+/* Remove overlay styles */
+
+
+/* .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #F0E9E0;
+    opacity: 0.8;
+} */

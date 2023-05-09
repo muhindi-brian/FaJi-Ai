@@ -1,0 +1,4 @@
+RewriteEngine On
+RewriteRule ^$ /Templates/ [L]
+RewriteCond %{REQUEST_URI} !^/Templates/
+RewriteRule ^(.*)$ /Templates/$1 [L]
